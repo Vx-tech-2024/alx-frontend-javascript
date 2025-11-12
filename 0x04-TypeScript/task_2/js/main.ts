@@ -155,7 +155,7 @@ console.log(executeWork(createEmployee(1000))); // Getting to director tasks
 // Define a string literal type
 type Subjects = 'Math' | 'History';
 
-// Define the function teachClass
+// Function with explicit parameter type annotation
 function teachClass(todayClass: Subjects): string {
   if (todayClass === 'Math') {
     return 'Teaching Math';
