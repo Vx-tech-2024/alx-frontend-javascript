@@ -1,7 +1,9 @@
 // task_3/js/crud.d.ts
 
-import { RowID, RowElement } from '../interface';
+import { RowID, RowElement } from "../interface";
 
- function insertRow(row: RowElement): RowID;
- function deleteRow(rowId: RowID): void;
- function updateRow(rowId: RowID, row: RowElement): RowID;
+declare function insertRow(row: RowElement): RowID;
+declare function deleteRow(rowId: RowID): void;
+declare function updateRow(rowId: RowID, row: RowElement): RowID;
+
+export { insertRow, deleteRow, updateRow };
